@@ -10,7 +10,7 @@ DiscrByOSLSType  OS	#### OS or LS
 DiscrByCosDphi	 false			# dPhi is calculated between Tau1 and Tau2 
 CosDphiCut 	 -1.00   -0.80
 
-DiscrByMassReco  true
+DiscrByMassReco  false
 HowCalculateMassReco  VectorSumofVisProductsAndMet       ###VectorSumOfVisProductsAndMet   or    CollinearApprox 
 MassCut          0.0   100.0
 
@@ -57,7 +57,7 @@ DiscrByOSLSType  OS
 DiscrByCosDphi	 0				# dPhi is calculated between Muon1 and Muon2 
 CosDphiCut 	 -1.00   -0.95
 
-DiscrByMassReco  true
+DiscrByMassReco  false
 HowCalculateMassReco NONE     ###VectorSumOfVisProductsAndMet   or    CollinearApprox 
 MassCut          75.0   105.0
 
@@ -69,7 +69,7 @@ CDFzeta2DCutValue         -50.0    1000
 DiscrByDeltaPtDivSumPt     0
 DeltaPtDivSumPtCutValue    0.1  1.0
 
-DiscrByDeltaPt 		   true
+DiscrByDeltaPt 		   false
 DeltaPtCutValue 	   30.0   9999.0
 
 DiscrByCosDphiPtAndMet false     # dPhi between Muon1 and MET
